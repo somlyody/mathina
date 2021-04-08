@@ -1,8 +1,31 @@
 actions:
+  - type: background
+    src: logi-bg1-layered.jpg
+    style: "position: absolute; left: 0; width: 100%; height: 100%; z-index: 1;"
   - type: sceneText
-    text: >
+    text: Mathina and her friend Leo hurried after the kangaroo on Logi-city’s streets. They were quite exhausted on that hot and dry summer day as they tried to keep pace with their guide. The kangaroo promised ice cream if they joined him, but they had to see all the sights of Logi-city first! Mathina and Leo hadheard of Logi-city’s famous ice cream, and could hardly wait to try it.>
       <p>Lorem ipsum</p>
       <p>Lorem ipsum dolores est</p>
+  - type: image
+    src: mathina-thinking.jpg
+    id: mathina1
+    style: "width: 20%; top: 40%; right: 30%;"
+    align: right
+  - type: game
+    text: "Is the following image good (i.e. symmetric)?"
+    toolbarText: "Is the following image good (i.e. symmetric)?"
+    cta: "Try it yourself!"
+    url: https://www.atractor.pt/temp/apps-tests/dobrar_3.html
+    img:
+      src: c1-2.png
+      height: 200
+      width: 200
+    toolbarImg:
+      src: c1-2.png
+      height: 200
+      width: 200
+  - type: sceneText
+    text: At the stall, Mathina is greeted by a smiling wizard.
   - type: dialog
     entries:
       - text: "I love these toys!"
@@ -11,6 +34,13 @@ actions:
       - text: "Some have defects!"
         char: wizard
         mood: sad
+  - type: animation
+    target: mathina1
+    vars:
+      duration: 3
+      xPercent: 85
+      yPercent: -10
+      ease: power3.out 
   - type: game
     text: "Want to hop around?"
     cta: "Try it yourself!"
