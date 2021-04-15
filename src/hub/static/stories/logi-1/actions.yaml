@@ -1,13 +1,33 @@
 actions:
   - type: background
-    src: logi-bg1-layered.jpg
+    src: logi-bg1-layered2fulls.jpg
     style: "position: absolute; left: 0; width: 100%; height: 100%; z-index: 1;"
   - type: sceneText
-    text: Mathina and her friend Leo hurried after the kangaroo on Logi-city’s streets. They were quite exhausted on that hot and dry summer day as they tried to keep pace with their guide. The kangaroo promised ice cream if they joined him, but they had to see all the sights of Logi-city first! Mathina and Leo hadheard of Logi-city’s famous ice cream, and could hardly wait to try it.>
-      <p>Lorem ipsum</p>
-      <p>Lorem ipsum dolores est</p>
+    text: Mathina and her friend Leo hurried after the kangaroo on Logi-city's streets. They were quite exhausted on that hot and dry summer day as they tried to keep pace with their guide. The kangaroo promised ice cream if they joined him, but they had to see all the sights of Logi-city first! Mathina and Leo had heard of Logi-city's famous ice cream, and could hardly wait to try it.
+  - type: dialog
+    entries:
+      - text: There it is! - pointed the kangaroo at the huge, round ice cream stand squeezed between two skyscrapers. 
+        char: kangaroo
+        mood: happy
+  - type: background
+    src: logi-bg1-layered2_leosteps1920.jpg
+    style: "position: absolute; left: 0; width: 100%; height: 100%; z-index: 1;"
+  - type: sceneText
+    text: Leo was about to cross the street, but the kangaroo reached out after him. 
+  - type: dialog
+    entries:
+      - text: Slow down, young man. You can't just cross this zebra. Do you see those traffic lights on the opposite side? 
+        char: kangaroo
+        mood: sad
+  - type: sceneText
+    text: They saw one column rising, another retreating to the ground.
+  - type: dialog
+    entries:
+      - text: We can only cross if the three colors appear in all possible orders.” - The kangaroo smiled, noticing Leo’s amazement. 
+        char: kangaroo
+        mood: happy
   - type: image
-    src: mathina-thinking.jpg
+    src: .jpg
     id: mathina1
     style: "width: 20%; top: 40%; right: 30%;"
     align: right
@@ -15,7 +35,7 @@ actions:
     text: "Is the following image good (i.e. symmetric)?"
     toolbarText: "Is the following image good (i.e. symmetric)?"
     cta: "Try it yourself!"
-    url: https://www.atractor.pt/temp/apps-tests/dobrar_3.html
+    url: http://www.rimosco.it/ew/LC_S1_TrafficLight/index.htm
     img:
       src: c1-2.png
       height: 200
